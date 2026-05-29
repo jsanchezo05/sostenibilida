@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #1a2a3a;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.logo span {
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+nav a.active {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+.hero {
+    background-color: #e8f5e9;
+    padding: 60px 50px;
+    text-align: center;
+    border-bottom: 5px solid #4CAF50;
+}
+.hero h1 {
+    font-size: 36px;
+    color: #1a2a3a;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    color: #1a2a3a;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+    border-top: 4px solid #4CAF50;
+}
+.card h3 {
+    color: #1a2a3a;
+}
+.ods-section {
+    background-color: white;
+    padding: 40px 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+.ods-badges {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.ods-badge {
+    background-color: #1a2a3a;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer {
+    background-color: #1a2a3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
